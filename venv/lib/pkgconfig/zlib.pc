@@ -1,0 +1,13 @@
+prefix=/Users/ibiiziiy/Desktop/mlproject/venv
+exec_prefix=/Users/ibiiziiy/Desktop/mlproject/venv
+libdir=/Users/ibiiziiy/Desktop/mlproject/venv/lib
+sharedlibdir=/Users/ibiiziiy/Desktop/mlproject/venv/lib
+includedir=/Users/ibiiziiy/Desktop/mlproject/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
