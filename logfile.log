@@ -1,0 +1,5 @@
+2024-05-18 04:24:47,661 - ERROR - Divide by Zero error
+Traceback (most recent call last):
+  File "/Users/ibiiziiy/Desktop/mlproject/src/exception.py", line 25, in <module>
+    a = 1/0
+ZeroDivisionError: division by zero
